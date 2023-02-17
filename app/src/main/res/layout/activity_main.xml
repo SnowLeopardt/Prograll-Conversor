@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:id="@+id/btmtd"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@id/menuu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/botones"
+        android:text="Transferencia de Datos"
+        android:textColor="@color/black"></Button>
+
+    <TextView
+        android:id="@+id/menuu"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:text="Menu"
+        android:textColor="@color/black"
+        android:textSize="16pt"></TextView>
+
+
+    <Button
+        android:id="@+id/btmmon"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginRight="239dp"
+        android:background="@drawable/botones"
+        android:text="Monedas"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btmmasa"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        android:background="@drawable/botones"
+        android:text="Masa"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btmlongi"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuu"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="236dp"
+        android:background="@drawable/botones"
+        android:text="Longitud"
+        android:textColor="@color/black"></Button>
+
+    <Button
+        android:id="@+id/btmvolu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:background="@drawable/botones"
+        android:text="Volumen"
+        android:textColor="@color/black"></Button>
+
+    <Button
+        android:id="@+id/btmtiempo"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:background="@drawable/botones"
+        android:text="Tiempo"
+        android:textColor="@color/black"></Button>
+
+    <Button
+        android:id="@+id/btmalma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuu"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/botones"
+        android:shadowColor="#151515"
+        android:text="Almacenamiento"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        app:rippleColor="@color/black"
+        app:strokeColor="#1B1A1A"></Button>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hd_wallpaper_estante_de_app_aplicaciones_cajon_fondo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/calculadora" />
+
+</RelativeLayout>
